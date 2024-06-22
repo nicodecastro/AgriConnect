@@ -1,0 +1,128 @@
+.admin-order-listing {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.admin-order-listing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../../Images/order-listing-bg.jpg'); /* Replace with your background image */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.column h2 {
+  text-align: center;
+  background-color: #7ABA78;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#h2-pending {
+  background-color: #FFC107;
+  color: white;
+  border-radius: 20px;
+}
+
+#h2-confirmed {
+  background-color: #28a745;
+  color: white;
+  border-radius: 20px;
+}
+
+#h2-cancelled {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 20px;
+}
+
+.order-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 4px solid #3f9b62;
+  border-radius: 20px;
+  background-color: #F6E9B2;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-details {
+  flex: 1;
+}
+
+.order-info {
+  background-color: #e0ffe0;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: #2e8b57;
+  font-family: 'Arial', sans-serif;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.order-info:hover {
+  background-color: #cceccc;
+}
+
+.confirm-button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius : 40px;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #218838;
+}
+
+.confirm-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.see-more-button {
+  padding: 10px;
+  background-color: #0A6847;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-button:hover {
+  background-color: #7ABA78;
+}

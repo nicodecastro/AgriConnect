@@ -1,0 +1,156 @@
+.admin-product-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.admin-product-header{
+    display: flex;
+    width: 90%;
+}
+
+.admin-product-table{
+    font-family:'Poppins';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.admin-product-table, th, td{
+    border-top: 1px solid  #ddd;
+    border-bottom: 1px solid  #ddd;
+    padding: 8px;
+}
+
+.admin-product-table tr:hover {background-color: #ddd;}
+
+.admin-product-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #eaeceb;
+    color: rgb(102, 101, 101);
+}
+
+.admin-product-box{
+    display: flex;
+    background-color: #f6f7f7;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+    flex-direction: column ;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.select-all .cb-input{ /* modify style */
+    width: 10%;
+    background-color: #0a6847;
+}
+
+.box-top{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0a6847; */
+    
+    .bt-left{
+        display: flex;
+        color: #0A6847;
+        flex: 2.5;
+        /* background-color: aquamarine; */
+        float: left;
+
+        .dropdown-menu {
+            top: 52px;
+        }
+
+        .dropdown{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .dropdown-button{
+                border-radius: 5px;
+            }
+
+        }
+    }
+
+    .bt-left h2 {
+        min-width: 160px;
+    }
+
+    .bt-right{
+        display: flex;
+        flex: 2.5;
+        /* background-color: #b5ba78; */
+        justify-content: center;
+        align-content: center;
+        margin-right: 0;
+    }
+}
+
+.col1{
+    display: flex;
+    width: 100%;
+}
+
+.product-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 50px;
+
+    .pb-left{
+        flex: 1.25;
+        width: auto;
+    }
+
+    .pb-right{
+        flex:3.75;
+
+        .product-name{
+            font-family: Kaushan Script;
+        }
+        .product-detail{
+            font-size: small;
+            color: rgb(124, 124, 124);
+            font-family: 'Poppins';
+        }
+    }
+}
+
+.apl-img{
+    max-height: 80px;
+    border-radius: 10%;
+}
+
+.add-product-btn{
+    background-color: #7ABA78;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.edit-btn{
+    background-color: rgb(243, 202, 82);
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.edit-btn:hover{
+    background-color: #0a6847;
+    transition-duration: 0.5s;
+}

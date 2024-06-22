@@ -1,0 +1,134 @@
+.orders-header {
+  background-color: #0A6847; /* Assuming this is the header color */
+  color: white;
+  padding: 10px;
+  text-align: center;
+    
+  }
+  
+.dropdown {
+  display: flex;
+  margin-left: 0px;
+  margin-right: auto;
+  padding: 5px;
+}
+  
+
+.filter-drp {
+  background-color: #0A6847;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+/*edit color option for each option value*/
+.filter-drp option {
+  color: #0A6847;
+  background-color: #F6E9B2;
+}
+
+.order-page {
+  padding: 20px;
+}
+
+.order-box {
+  margin-top: 20px;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.new-product-btn {
+  background-color: #0A6847;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.new-product-btn:hover {
+  background-color: #065d3b;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th, .order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #0A6847;
+  color: white;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.order-table tr:hover {
+  background-color: #ddd;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+  
+.page-item {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: beige;
+    cursor: pointer;
+}
+.page-item:hover {
+    background-color: #0A6847;
+    color: white;
+}
+
+.cancel-btn{
+    background-color: rgb(243, 202, 82);
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover{
+    background-color: #5c6817;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.cancel-btn:disabled{
+    background-color: rgba(243, 203, 82, 0.411);
+    cursor: default;
+}
+
+.Canceled {
+    color: rgb(182, 13, 13);
+    font-weight: bold;
+}
+
+.Confirmed{
+    color: #0e862c;
+    font-weight: bold;
+}

@@ -1,0 +1,21 @@
+.popup-content {
+    padding: 0px 40px;
+    display: flex;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.popup-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    width: 100%;
+}

@@ -1,0 +1,95 @@
+/* src/components/UserProfile.css */
+.user-profile {
+  background-color: white; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.profile-picture {
+  border-radius: 50%; /* Circular profile picture */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.user-profile h2 {
+  color: #0A6847; /* Dark green */
+  text-align: center;
+}
+
+.user-profile form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile label {
+  margin: 10px;
+}
+
+.user-profile input {
+  padding: 10px 5px;
+  margin: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.user-profile button {
+  padding: 10px;
+  background-color: #0A6847; /* Dark green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.user-profile button:hover {
+  background-color: #F3CA52; /* Yellow shade */
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 16px
+}
+
+.btn-container button {
+  flex-grow: 1;
+}
+
+.logout-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #0A6847; /* Dark green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #F3CA52; /* Yellow shade */
+}
+
+.user-profile .user-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.user-profile .user-info p {
+  text-align: center;
+  margin: 0;
+}

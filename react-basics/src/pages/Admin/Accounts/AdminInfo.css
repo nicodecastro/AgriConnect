@@ -1,0 +1,97 @@
+/* AdminInfo.css */
+
+.admin-info-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .admin-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .admin-basic-info h2 {
+    margin: 0;
+    color: #0A6847;
+  }
+  
+  .admin-basic-info p {
+    margin: 5px 0;
+  }
+  
+  .admin-details {
+    margin-bottom: 20px;
+  }
+  
+  .admin-statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-item {
+    display: flex;
+    align-items: center;
+    background-color: #F6E9B2;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .stat-item i {
+    font-size: 24px;
+    color: #F3CA52;
+    margin-right: 10px;
+  }
+  
+  .admin-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    padding: 10px 20px;
+    background-color: #0A6847;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 48%;
+  }
+  
+  .action-button:hover {
+    background-color: #7ABA78;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #0A6847;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logout-button:hover {
+    background-color: #7ABA78;
+  }
+  

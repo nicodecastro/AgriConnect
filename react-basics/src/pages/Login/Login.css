@@ -1,0 +1,86 @@
+.login-page{
+    display: flex;
+    width: 100%;
+    height: 900px; /*735px*/
+    background-color: #0A6847;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+
+    .login-bg-img{
+        opacity: 0.3;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .login-box{
+        position: relative;
+        align-items: center;
+        width: 40%;
+        height: 60%;
+        display: flex;
+        background-color:rgb(255, 255, 255);
+        flex-direction: column;
+        border-radius: 25px;
+        justify-content:center;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+        margin-top: 50px;
+        font-family: 'Poppins';
+
+        h2 {
+            margin-top: 8px;
+        }
+        
+        form{
+            display: flex;
+            justify-content:center;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        input{
+            width: 70%;
+            height: 60px;
+            margin: 10px;
+            /* border-width: 3px; */
+            border-radius: 5px;
+            border-width: 0px 0px 3px 0px; /*top right bottom left*/
+            border-color: rgb(146, 146, 146);
+            background-color: rgb(240, 240, 240);
+        }
+
+        .login-button{
+            width: 70%;
+            height: 45px;
+            margin-top: 40px;
+            background-color: #F3CA52;
+            border-style: none;
+            border-radius: 20px;
+            font-size: larger;
+            cursor: pointer;
+        }
+
+        .login-button:hover{
+            width: 70%;
+            height: 45px;
+            margin-top: 40px;
+            background-color: #ffffff;
+            border-style: solid;
+            border-width: 3px;
+            border-radius: 20px;
+            border-color: #F3CA52;
+            color: #F3CA52;
+        }
+    }
+}
+
+.logo {
+    padding: 8px;
+    height: 140px;
+}

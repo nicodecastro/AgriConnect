@@ -1,0 +1,106 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+}
+
+.sort-by-text {
+  font-family: Kaushan Script;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 16px;
+}
+
+/* Important for showing dropdowns side by side */
+.dropdown-btns {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: start;
+  gap: 16px
+}
+
+.product-listing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.product-card {
+  font-size: 20px;
+  background-color: #F6E9B2;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+  margin: 6px;
+  text-align: center;
+}
+
+.unavailable {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent background */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 10; /* Ensure it is above other elements */
+}
+
+.product-unavailable img,
+.product-unavailable .product-info {
+  opacity: 0.35;
+}
+
+.product-unavailable .product-info button:hover {
+  background-color: #F3CA52;
+}
+
+.product-info h3{
+  font-family: Kaushan Script;
+  padding: 0;
+  font-size: 20px;
+}
+
+.product-info h2{
+  font-size: 16px;
+  color: green;
+}
+
+
+.product-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.product-info p {
+  color:#000000;
+  font-size: 14px;
+}
+
+.product-info button {
+  background-color: #F3CA52;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.product-info button:hover {
+  background-color: #0A6847;
+  transition-duration: 0.5s;
+}

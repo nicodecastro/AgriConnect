@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules/
+backend/models/mongodb-uri-credentials.js
+
+# dotenv environment variable files
+.env
+.env.test
+.env.production
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Client build
+/client/build
+
+# Server build
+/server/build
