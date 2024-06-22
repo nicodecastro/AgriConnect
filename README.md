@@ -1,7 +1,5 @@
 # AgriConnect
 
-
-
 ![Project Logo](react-basics/src/Images/agriconnectlogo.svg)
 
 AgriConnect is a farm-to-table initiative by the Department of Agriculture. The project involves two user interfaces: one for merchants/admin (Department of Agriculture) and one for customers. This project aims to bridge the gap between farmers and consumers via e-commerce website.
@@ -51,7 +49,6 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```bash
     npm run server
 
-
 ### Frontend Setup
 1. Navigate to the react-basics directory
     ```bash
@@ -64,9 +61,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 3.  Start the React Development Server
     ```bash
     npm run start
-
-
-
+    
 ## Authors
 
 | Name                       | Role       |
@@ -76,11 +71,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 | Keshia Lei Gayoso          | Fullstack  |
 | Maximus Aurellus Bicalan   | Fullstack  |
 
-
 ## License
  This project is under the CREATIVE COMMONS ATTRIBUTION-NONCOMMERCIAL-NODERIVS 4.0 INTERNATIONAL (CC BY-NC-ND 4.0) license. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/.
-
-
 
  ### Project Screenshots
 - Login Page
